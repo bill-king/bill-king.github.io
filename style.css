@@ -54,7 +54,7 @@ li {
   margin-top: 45px;
 }
 li:hover {
-
+cursor: pointer;
 }
 
 #main-container {
