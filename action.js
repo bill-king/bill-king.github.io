@@ -30,3 +30,19 @@ $("#about-btn").click(function () {
     },
         'slow');
 });
+
+
+var $form = $('form#register-form'),
+    url = 'https://script.google.com/macros/s/AKfycbwacUQ5UKYoWp-789IIqSPeMq9Iqr0xwhFAGb_2ovurqBMHa4k/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
