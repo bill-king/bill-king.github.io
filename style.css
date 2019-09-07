@@ -8,7 +8,6 @@ body {
     color: #5a5a5a;
   }
   
-  
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
@@ -43,21 +42,40 @@ body {
   height: 500px;
 }
 
+#topo {
+  height: 760px;
+}
+
+.topo-circle {
+  border-radius: 1%;
+}
+
+#about-bill-section {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.img-caption {
+  opacity: .7;
+}
+
+.fake-circle {
+  border-radius: 50%;
+}
+
+.about-bill {
+  padding-left: 1em;
+  padding-bottom: .5em;
+}
+
+.para-bill {
+  padding-top: 5em;
+}
   
-  /* Featurettes
-  ------------------------- */
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+
+#link-color {
+    color: #ffc107;
   }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-  }
-  
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
