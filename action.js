@@ -54,7 +54,7 @@ $.fn.serializeObject = function () {
 
 $('#submit-form').on('click', function (e) {
     e.preventDefault();
-    var jqxhr = $.fetch({
+    var jqxhr = $.ajax({
         url: url,
         method: "GET",
         dataType: "json",
