@@ -17,20 +17,6 @@
     }, false);
 })();
 
-$(".register-btn").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#register").offset().top - 55
-    },
-        'slow');
-});
-
-$("#about-btn").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#about-bill-section").offset().top
-    },
-        'slow');
-});
-
 
 var $form = $('form#register-form'),
     url = 'https://script.google.com/macros/s/AKfycbwacUQ5UKYoWp-789IIqSPeMq9Iqr0xwhFAGb_2ovurqBMHa4k/exec'

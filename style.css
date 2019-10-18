@@ -43,7 +43,7 @@ body {
 }
 
 #topo {
-  height: 760px;
+  height: 500px;
 }
 
 .topo-circle {
@@ -51,8 +51,8 @@ body {
 }
 
 #about-bill-section {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .img-caption {
