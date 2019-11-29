@@ -43,6 +43,12 @@ body {
 }
 
 
+.leaders {
+  border-radius: 75%;
+  max-width: 100%;
+  max-height: 100%;
+  }
+
 #topo {
   height: 600px;
 }
