@@ -1,0 +1,87 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    height: 100%;
+    position: relative;
+  background-color: rgb(16, 24, 32) ;
+  color: #A5B7EA;
+    }
+  
+    p,li {
+      color: #C5D0D9;
+    }
+  
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+     }
+  
+     main {
+      min-height: 100vh; /* will cover the 100% of viewport */
+      overflow: hidden;
+      display: block;
+      position: relative;
+      padding-bottom: 100px; /* height of your footer */
+     }
+  
+  
+     .nav-link {
+      color: #A5B7EA;
+    }
+  
+  .leaders {
+    border-radius: 75%;
+    max-width: 100%;
+    max-height: 100%;
+    }
+  
+    .navbar-nav {
+      float:none;
+      margin:0 auto;
+      display: block;
+      text-align: center;
+      font-size: 1.4em !important;
+  }
+  
+  .navbar-nav > li {
+      display: inline-block;
+      float:none;
+  }
+  
+  .navbar-inner {
+    background:transparent;
+  }
+  
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .landing-column {
+    float: left;
+    width: 33.33%;
+  }
+  .landing-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #topo {
+    height: 600px;
+  }
+  
+  
+  #wwdo {
+    height: 500px;
+    padding-bottom: 5em;
+  }
+
+  #link-color {
+      color: #ffc107;
+    }
+    
+    

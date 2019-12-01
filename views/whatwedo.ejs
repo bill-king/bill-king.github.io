@@ -4,76 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The Mariposa Trails non-profit helps restore, maintain and discover trails in the sierra foothills. We provide opportunities to learn about the local area and volunteer to help build up hiking trails in and around the community">
+  <meta name="description"
+    content="The Mariposa Trails non-profit helps restore, maintain and discover trails in the sierra foothills. We provide opportunities to learn about the local area and volunteer to help build up hiking trails in and around the community">
   <meta name="keywords" content="Mariposa,Trails,Hiking,Biking,
   non-profit,hikes,hikers,mariposatrails,volunteers,community">
   <title>About Maripos Trails</title>
+  <%- include("partials/styleLink") %>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="styles/style.css" rel="stylesheet" version="0.0.6">
-</head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md">
-    
-          <a class="navbar-brand" href="https://mariposatrails.org/">
-            <img src="/assets/MariposaTrailsLogo_BasicDesign.png" width="130" height="130" alt="trails-logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto" id="navbar-center">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mariposatrails.org/whoweare">Who We Are</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mariposatrails.org/whatwedo">What We Do</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mariposatrails.org/events">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mariposatrails.org/involvement">Get Involved</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mariposatrails.org/donate">Donate</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+  <%- include("partials/header") %>
+
 
   <main role="main">
 
     <!--Top Banner-->
     <div class="container">
-          <img src="/assets/overview_map.jpg"></img>
+      <img src="/overview_map.jpg"></img>
     </div>
 
     <!--What We Do-->
@@ -108,7 +55,7 @@
 
         </div>
         <div class="col-7">
-          <img src="assets/Trailwork2.jpg" alt="trailwork" class="topo-circle" style="max-width: 80%;">
+          <img src="/Trailwork2.jpg" alt="trailwork" class="topo-circle" style="max-width: 80%;">
         </div>
 
       </div>
@@ -127,7 +74,7 @@
 
         </div>
         <div class="col-7">
-          <img src="assets/Recreate4.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
+          <img src="/Recreate4.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
         </div>
 
       </div>
@@ -166,7 +113,7 @@
 
         </div>
         <div class="col-7">
-          <img src="assets/Educate2.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
+          <img src="/Educate2.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
         </div>
 
       </div>
@@ -184,26 +131,14 @@
             trails. </p>
         </div>
         <div class="col-7">
-          <img src="assets/Advocate2.JPG" alt="hiking advocates" class="topo-circle" style="max-width: 80%;">
+          <img src="/Advocate2.JPG" alt="hiking advocates" class="topo-circle" style="max-width: 80%;">
         </div>
 
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="container">
-      <p>&copy; Mariposa Trails &middot; <a id="link-color" href="#">Privacy</a> &middot; <a  target="_blank" id="link-color"
-          href="documents/PARTICIPANT ACKNOWLEDGEMENT OF RISKS_180815_clear.pdf">Risk Acknowledgement</a></p>
-    </footer>
   </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <%- include("partials/footer") %>
+
 
 </html>
