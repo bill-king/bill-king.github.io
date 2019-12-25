@@ -37,6 +37,53 @@ color: #A5B7EA;
     border-left: 5px solid #b3b3b3;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
+
+  .jumbotron {
+    margin-bottom: 0;
+    background-image: url(/assets/overview_map.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  .footer-widget {
+    background-color:rgb(35, 35, 35);
+    color: #999999;
+  }
+
+  .footer-link > li > a{
+    color: #999999 !important;
+  }
+
+  .widget-title {
+    text-transform: capitalize;
+    color: whitesmoke;
+  }
+
+.text-2 {
+  padding-top: 2em;
+}
+
+#separate {
+  /* background-color: rgb(29, 29, 29); */
+  height: 100px;
+}
+
+.upcoming-events {
+  background-color:whitesmoke;
+  padding-bottom: 5em;
+}
+
+#volunteer {
+padding-top: 4em;
+padding-bottom: 20em;
+background-image: url(/assets/banner_c.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
 
    .nav-link {
     color: #A5B7EA;
