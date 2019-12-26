@@ -42,9 +42,37 @@ color: #A5B7EA;
   }
 
 
-  .jumbotron {
+  #jtron-landing {
+    margin-bottom: 0;
+    background-image: url(/assets/IMG_3809\ -\ Copy_25p.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  #jtron-whoweare {
     margin-bottom: 0;
     background-image: url(/assets/overview_map.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  #jtron-whatwedo {
+    margin-bottom: 0;
+    background-image: url(/assets/Tiffany\ and\ Tony_19-11-2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  #jtron-involvement {
+    margin-bottom: 0;
+    background-image: url(/assets/group_a.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  #jtron-donate {
+    margin-bottom: 0;
+    background-image: url(/assets/Henness\ Ridge.jpg);
     background-repeat:no-repeat;
     background-size:cover;
   }
