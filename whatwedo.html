@@ -4,10 +4,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The Mariposa Trails non-profit helps restore, maintain and discover trails in the sierra foothills. We provide opportunities to learn about the local area and volunteer to help build up hiking trails in and around the community">
+  <meta name="description"
+    content="The Mariposa Trails non-profit helps restore, maintain and discover trails in the sierra foothills. We provide opportunities to learn about the local area and volunteer to help build up hiking trails in and around the community">
   <meta name="keywords" content="Mariposa,Trails,Hiking,Biking,
   non-profit,hikes,hikers,mariposatrails,volunteers,community">
   <title>About Maripos Trails</title>
+
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.hello').load('partials/footer.html');
+    });
+    $(document).ready(function () {
+      $('.nav-header').load('partials/header.html');
+    });
+  </script>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,69 +46,31 @@
 </head>
 
 <body>
-  <header>
-    <div class="jumbotron" id="jtron-whatwedo">
+  <div class="nav-header"></div>
+  <main role="main">
+    <div class="container-fluid">
+      <!--Tending Trails-->
       <div class="container">
         <div class="row">
-          <a href="https://mariposatrails.org/">
-            <img src="/assets/MariposaTrailsLogo_BasicDesign.png" alt="trails-logo">
-          </a>
+          <div class="col-5">
+            <br>
+            <h2>Tend the Trails</h2>
+            <hr>
+            <p>While Mariposa County is home to Yosemite National Park, it also contains other public lands that are
+              closer to its citizens and less crowded. Mariposa Trails has stepped up to tend front-country trails for
+              the
+              enjoyment of all types of nature-based recreation, including hikers, cyclists, runners and equestrians.
+              Most outings are in the fall and winter, when the soil is soft, the air is cool, and
+              bugs are nowhere to be seen!
+            </p>
+          </div>
+          <div class="col-7">
+            <br>
+            <img src="assets/Trailwork2.jpg" alt="trailwork" class="topo-circle" style="max-width: 80%;">
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Navigation Bar -->
-
-    <nav class="navbar align-items-top navbar-expand-md ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto" id="navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whoweare.html">Who We Are</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whatwedo.html">What We Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/involvement.html">Get Involved</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/donate.html">Donate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main role="main">
-<div class="container-fluid upcoming-events">
-    <!--Tending Trails-->
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <br>
-          <h2>Tend the Trails</h2>
-          <hr>
-          <p>While Mariposa County is home to Yosemite National Park, it also contains other public lands that are
-            closer to its citizens and less crowded. Mariposa Trails has stepped up to tend front-country trails for the
-            enjoyment of all types of nature-based recreation, including hikers, cyclists, runners and equestrians.
-            Most outings are in the fall and winter, when the soil is soft, the air is cool, and
-            bugs are nowhere to be seen!
-          </p>
-        </div>
-        <div class="col-7">
-          <br>
-          <img src="assets/Trailwork2.jpg" alt="trailwork" class="topo-circle" style="max-width: 80%;">
-        </div>
-      </div>
-    </div>
-  </div>
 
 
     <!--Create Outdoor Recreational Opportunities-->
@@ -105,10 +79,14 @@
         <div class="col-5">
           <h2>Create Outdoor Recreational Opportunities</h2>
           <hr>
-          <p>The livelihood of Mariposa County is rooted in the abundant richness of its land, which attracts and nourishes
-            tourists and residents alike.  Recognizing this, MARIPOSA TRAILS aims to provide access to outdoor recreational
-            trails for the community.  Our strategy is two-fold: tend the trails AND promote their use. To this end, we organize
-            hiking, backpacking, biking and running trips, as well as race events. Proceeds from these activities are invested
+          <p>The livelihood of Mariposa County is rooted in the abundant richness of its land, which attracts and
+            nourishes
+            tourists and residents alike. Recognizing this, MARIPOSA TRAILS aims to provide access to outdoor
+            recreational
+            trails for the community. Our strategy is two-fold: tend the trails AND promote their use. To this end, we
+            organize
+            hiking, backpacking, biking and running trips, as well as race events. Proceeds from these activities are
+            invested
             in trail network improvements and recreation and education programs. </p>
           </p>
 
@@ -116,27 +94,28 @@
         <div class="col-7">
           <img src="assets/Recreate4.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
         </div>
-           </div>
+      </div>
     </div>
 
-    <div class="container-fluid upcoming-events">
-    <!--Teach Youth-->
-    <div class="container" style="padding-top: 2em;">
-      <div class="row">
-        <div class="col-5">
-          <h2>Teach Youth</h2>
-          <hr>
-          <p>Mariposa Trails seeks to involve local youth and area college students in its endeavors to improve their
-            physical and mental health, and to expand their knowledge and skills. For example, Mariposa County High
-            School students crafted the post-fire South Fork Trail Signs, and students from Central Valley Universities
-            regularly participate in multi-day trail stewardship outings. </p>
-          </p>
+    <div class="container-fluid">
+      <!--Teach Youth-->
+      <div class="container" style="padding-top: 2em;">
+        <div class="row">
+          <div class="col-5">
+            <h2>Teach Youth</h2>
+            <hr>
+            <p>Mariposa Trails seeks to involve local youth and area college students in its endeavors to improve their
+              physical and mental health, and to expand their knowledge and skills. For example, Mariposa County High
+              School students crafted the post-fire South Fork Trail Signs, and students from Central Valley
+              Universities
+              regularly participate in multi-day trail stewardship outings. </p>
+            </p>
 
+          </div>
+          <div class="col-7">
+            <img src="assets/Educate2.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
+          </div>
         </div>
-        <div class="col-7">
-          <img src="assets/Educate2.jpg" alt="yosemite" class="topo-circle" style="max-width: 80%;">
-        </div>
-      </div>
       </div>
     </div>
     <!--Advocate for Trails-->
@@ -157,97 +136,8 @@
       </div>
     </div>
 
-      <!-- FOOTER -->
 
-      <div class="footer-widget">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-1 col-md-1">
-            </div>
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <div class="textwidget">
-                  <div class="footer-address"><img src="assets/MariposaTrailsLogo_BasicDesign.png" alt="Mariposa Trails"
-                      width=100%>
-                    <div class="address">
-                      <br>
-                      <p>
-                        P.O BOX 5008-201<br>Mariposa, CA 95338</p>
-                      <p>
-                        <span><a href="mailto:mariposa.trails@yahoo.com">mariposa.trails@yahoo.com</a></span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <i>The mission of MARIPOSA TRAILS is to be stewards of a trail network and promote its use for personal health
-                  and community prosperity.</i>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-1">
-            </div>
-  
-            <div class="col-sm-1 col-md-1">
-              <div class="text-2">
-                <h3 class="widget-title">Support</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">Safety</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/safety.html">Personal</a></li>
-                    <li><a href="/safety.html">Tool Use</a></li>
-                    <li><a href="/safety.html">Video</a></li>
-                    <li><a target="_blank" id="link-color"
-                      href="documents/PARTICIPANT ACKNOWLEDGEMENT OF RISKS_180815_clear.pdf">Risk Acknowledgement</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">FAQ</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/FAQ.html">Pack Lists</a></li>
-                    <li><a href="/FAQ.html">Trail Work Day</a></li>
-                    <li><a href="/FAQ.html">New Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p>&copy; Mariposa Trails</p>
-      </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <!-- FOOTER -->
+  <div class="hello"></div>
 
 </html>

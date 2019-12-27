@@ -4,10 +4,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The Mariposa Trails non-profit is made up of individuals from the sierra foothills community and the surrounding areas.">
+  <meta name="description"
+    content="The Mariposa Trails non-profit is made up of individuals from the sierra foothills community and the surrounding areas.">
   <meta name="keywords" content="Mariposa,Trails,Hiking,Biking,
   non-profit,hikes,hikers,mariposatrails,volunteers,community">
   <title>Our Team</title>
+
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.hello').load('partials/footer.html');
+    });
+    $(document).ready(function () {
+      $('.nav-header').load('partials/header.html');
+    });
+  </script>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,190 +46,162 @@
 </head>
 
 <body>
-  <header>
-    <div class="jumbotron" id="jtron-whoweare">
+  <div class="nav-header"></div>
+
+  <main role="main">
+    <div class="container-fluid">
+
       <div class="container">
         <div class="row">
-          <a href="https://mariposatrails.org/">
-            <img src="/assets/MariposaTrailsLogo_BasicDesign.png" alt="trails-logo">
-          </a>
+          <div class="col">
+            <br>
+            <h2>Our Vision</h2>
+            <hr>
+            <p>Foundational to the work of MARIPOSA TRAILS is the ethic of "taking" and "giving" from the land. MARIPOSA
+              TRAILS recognizes
+              the value of gifts from nature, knowing that our health, prosperity and enjoyment are rooted in our access
+              to the earth, and
+              our care of it. Instilled in our work is the notion of "paying it forward,” We believe trails are pathways
+              to adventure,
+              exploration and discovery of nature and our place in it. </p>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <br>
+            <h2>Mission Statement</h2>
+            <hr>
+            <p>The mission of MARIPOSA TRAILS is to be stewards of a trail network, emphasizing them as pathways of
+              discovery of nature
+              and our place in it, and promoting their use for personal health and community prosperity.</p>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <br>
+            <h2>Community Volunteers, Advisory Council and Fiduciary</h2>
+            <hr>
+            <p>Volunteers are the heart of the Mariposa Trails organization, shaping its vision, enlivening its mission,
+              and
+              achieving its goal to maintain and promote recreational trail access for hikers, runners, cyclists and
+              equestrians. A council
+              of trail advocates advises and guides Mariposa Trails founder Bill King. As the organization grows and
+              obtains
+              incorporated non-profit status, a board of directors will be formed. The Upper Merced Watershed Council
+              acts as the group
+              fiduciary. </p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 text-center">
+          <br>
+          <h2>Bill King</h2>
+          <hr>
+          <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Marty Acree</h2>
+          <hr>
+          <img src="assets/Leader_Marty_r.jpg" alt="leader2" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Jeff Gabe</h2>
+          <hr>
+          <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Scott Fiester</h2>
+          <hr>
+          <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
+          <br>
+          <br>
         </div>
       </div>
     </div>
 
-    <!-- Navigation Bar -->
-
-    <nav class="navbar align-items-top navbar-expand-md ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto" id="navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whoweare.html">Who We Are</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whatwedo.html">What We Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/involvement.html">Get Involved</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/donate.html">Donate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main role="main">
-    <div class="container-fluid upcoming-events">
-
     <div class="container">
-    <div class="row">
-      <div class="col">
-        <br>
-        <h2>Our Vision</h2>
-        <hr>
-       <p>Foundational to the work of MARIPOSA TRAILS is the ethic of "taking" and "giving" from the land. MARIPOSA TRAILS recognizes
-         the value of gifts from nature, knowing that our health, prosperity and enjoyment are rooted in our access to the earth, and
-         our care of it.  Instilled in our work is the notion of "paying it forward,”  We believe trails are pathways to adventure,
-         exploration and discovery of nature and our place in it. </p>
-        <br>
+      <div class="row">
+        <div class="col-3 text-center">
+          <br>
+          <h2>Michael Seymour</h2>
+          <hr>
+          <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Sally Martinez</h2>
+          <hr>
+          <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Shelly Kniss</h2>
+          <hr>
+          <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
+          <br>
+          <br>
+        </div>
+        <div class="col-3 text-center">
+          <br>
+          <h2>Ursula Stock</h2>
+          <hr>
+          <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
+          <br>
+          <br>
+        </div>
       </div>
     </div>
-  </div>  
-    
-<div class="container">
-    <div class="row">
-      <div class="col">
-        <br>
-        <h2>Mission Statement</h2>
-        <hr>
-        <p>The mission of MARIPOSA TRAILS is to be stewards of a trail network, emphasizing them as pathways of discovery of nature
-          and our place in it, and promoting their use for personal health and community prosperity.</p>
-        <br>
-      </div>
-    </div>
-  </div>
-<div class="container">
-    <div class="row">
-      <div class="col">
-        <br>
-        <h2>Community Volunteers, Advisory Council and Fiduciary</h2>
-        <hr>
-        <p>Volunteers are the heart of the Mariposa Trails organization, shaping its vision, enlivening its mission, and
-        achieving its goal to maintain and promote recreational trail access for hikers, runners, cyclists and equestrians. A council
-        of trail advocates advises and guides Mariposa Trails founder Bill King. As the organization grows and obtains
-        incorporated non-profit status, a board of directors will be formed. The Upper Merced Watershed Council acts as the group
-        fiduciary. </p>
-        <br>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="container">
-    <div class="row">
-      <div class="col-3 text-center">
-        <br>
-        <h2>Bill King</h2>
-        <hr>
-        <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Marty Acree</h2>
-        <hr>
-        <img src="assets/Leader_Marty_r.jpg" alt="leader2" class="leaders">
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Jeff Gabe</h2>
-        <hr>
-        <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Scott Fiester</h2>
-        <hr>
-        <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
-        <br>
-        <br>
-      </div>
-      </div>
-  </div>
-  
-    <div class="container">
-    <div class="row">
-      <div class="col-3 text-center">
-        <br>
-        <h2>Michael Seymour</h2>
-        <hr>
-        <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Sally Martinez</h2>
-        <hr>
-        <img src="assets/Leader_Bill_30pr.jpg" alt="leader1" class="leaders">    
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Shelly Kniss</h2>
-        <hr>
-        <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
-        <br>
-        <br>
-      </div>
-      <div class="col-3 text-center">
-        <br>
-        <h2>Ursula Stock</h2>
-        <hr>
-        <img src="assets/Gabe Pic_r.jpg" alt="leader3" class="leaders">
-        <br>
-        <br>
-      </div>                                                            
-      </div>
-  </div>
-  <div class="container-fluid upcoming-events">
-    <div class="container">
+    <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col">
             <br>
             <h2>Partners</h2>
             <hr>
-            <p>Mariposa Trails believes that planning, building, maintaining and enjoying local trails takes community effort and works
-              with non-profit partners, community organizations, government agencies and special districts to accomplish its vision,
+            <p>Mariposa Trails believes that planning, building, maintaining and enjoying local trails takes community
+              effort and works
+              with non-profit partners, community organizations, government agencies and special districts to accomplish
+              its vision,
               mission and goals.
-              </p>
-              <p><b>NON-PROFIT PARTNERS</b></p>
-              <ul>
-                <li>Upper Merced River Watershed Council</li>
-              </ul>
-              <p><b>COMMUNITY ORGANIZATIONS</b></p>
-              <ul>
-                <li>Mariposa Museum and History Center</li>
-              </ul>
-              <p><b>GOVERNMENT AGENCIES AND SPECIAL DISTRICTS</b></p>
-              <ul>
-                <li>Sierra National Forest</li>
-                <li>Mariposa Conservation District</li>
-                <li>Mariposa County Unified School District</li>
-              </ul>
+            </p>
+            <p><b>NON-PROFIT PARTNERS</b></p>
+            <ul>
+              <li>Upper Merced River Watershed Council</li>
+            </ul>
+            <p><b>COMMUNITY ORGANIZATIONS</b></p>
+            <ul>
+              <li>Mariposa Museum and History Center</li>
+            </ul>
+            <p><b>GOVERNMENT AGENCIES AND SPECIAL DISTRICTS</b></p>
+            <ul>
+              <li>Sierra National Forest</li>
+              <li>Mariposa Conservation District</li>
+              <li>Mariposa County Unified School District</li>
+            </ul>
             <br>
           </div>
         </div>
@@ -226,110 +210,20 @@
 
 
 
-      <div class="container">
-          <div class="row">
-            <div class="col">
-              <br>
-              <h2>Contact Us</h2>
-              <hr>
-              <p>You can reach Bill King through email <a href="mailto: mariposa.trails@yahoo.com">here</a> , or call 209-626-9898.</p>
-              <br>
-            </div>
-          </div>
-        </div>
-
-      <!-- FOOTER -->
-
-      <div class="footer-widget">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-1 col-md-1">
-            </div>
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <div class="textwidget">
-                  <div class="footer-address"><img src="assets/MariposaTrailsLogo_BasicDesign.png" alt="Mariposa Trails"
-                      width=100%>
-                    <div class="address">
-                      <br>
-                      <p>
-                        P.O BOX 5008-201<br>Mariposa, CA 95338</p>
-                      <p>
-                        <span><a href="mailto:mariposa.trails@yahoo.com">mariposa.trails@yahoo.com</a></span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <i>The mission of MARIPOSA TRAILS is to be stewards of a trail network and promote its use for personal health
-                  and community prosperity.</i>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-1">
-            </div>
-  
-            <div class="col-sm-1 col-md-1">
-              <div class="text-2">
-                <h3 class="widget-title">Support</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">Safety</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/safety.html">Personal</a></li>
-                    <li><a href="/safety.html">Tool Use</a></li>
-                    <li><a href="/safety.html">Video</a></li>
-                    <li><a target="_blank" id="link-color"
-                      href="documents/PARTICIPANT ACKNOWLEDGEMENT OF RISKS_180815_clear.pdf">Risk Acknowledgement</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">FAQ</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/FAQ.html">Pack Lists</a></li>
-                    <li><a href="/FAQ.html">Trail Work Day</a></li>
-                    <li><a href="/FAQ.html">New Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <br>
+          <h2>Contact Us</h2>
+          <hr>
+          <p>You can reach Bill King through email <a href="mailto: mariposa.trails@yahoo.com">here</a> , or call
+            209-626-9898.</p>
+          <br>
         </div>
       </div>
-    </main>
+    </div>
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p>&copy; Mariposa Trails</p>
-      </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-
+    <!-- FOOTER -->
+    <div class="hello"></div>
 
 </html>

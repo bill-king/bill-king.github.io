@@ -10,6 +10,17 @@
   non-profit,hikes,hikers,mariposatrails,volunteers,community">
   <title>Join Trail Crew</title>
 
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.hello').load('partials/footer.html');
+    });
+    $(document).ready(function () {
+      $('.nav-header').load('partials/header.html');
+    });
+  </script>
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,77 +46,40 @@
 </head>
 
 <body>
-  <header>
-    <div class="jumbotron" id="jtron-involvement">
-      <div class="container">
-        <div class="row">
-          <a href="https://mariposatrails.org/">
-            <img src="/assets/MariposaTrailsLogo_BasicDesign.png" alt="trails-logo">
-          </a>
-        </div>
-      </div>
-    </div>
+  <div class="nav-header"></div>
 
-    <!-- Navigation Bar -->
-
-    <nav class="navbar align-items-top navbar-expand-md ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto" id="navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whoweare.html">Who We Are</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/whatwedo.html">What We Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/involvement.html">Get Involved</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/donate.html">Donate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
 
   <main role="main">
-    <div class="container-fluid upcoming-events">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <br>
-          <h2>Join Us</h2>
-          <hr>
-          <p>If you share our belief that health, prosperity and fun are grounded in our access to the earth, and our
-            care of it,
-            then join us. You can make a difference by being an active and valued member of the Mariposa Trails
-            community.
-            Volunteers are the heart of the Mariposa Trails organization, shaping its vision, enlivening its mission,
-            and achieving
-            its goal to maintain and promote recreational trail access for hikers, runners, cyclists, equestrians and
-            others.
-            Many volunteer options exist, including:
-          </p>
-          <ul>
-            <li>Trail Day Events</li>
-            <li>Recreation Day Events</li>
-            <li>Race Events</li>
-            <li>Youth Outings</li>
-            <li>Trail and Ales Events</li>
-            <li>Leadership & Support Positions</li>
-          </ul>
-          <br>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col">
+            <br>
+            <h2>Join Us</h2>
+            <hr>
+            <p>If you share our belief that health, prosperity and fun are grounded in our access to the earth, and our
+              care of it,
+              then join us. You can make a difference by being an active and valued member of the Mariposa Trails
+              community.
+              Volunteers are the heart of the Mariposa Trails organization, shaping its vision, enlivening its mission,
+              and achieving
+              its goal to maintain and promote recreational trail access for hikers, runners, cyclists, equestrians and
+              others.
+              Many volunteer options exist, including:
+            </p>
+            <ul>
+              <li>Trail Day Events</li>
+              <li>Recreation Day Events</li>
+              <li>Race Events</li>
+              <li>Youth Outings</li>
+              <li>Trail and Ales Events</li>
+              <li>Leadership & Support Positions</li>
+            </ul>
+            <br>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
     <div class="container">
@@ -119,7 +93,8 @@
             spend time with friends enjoying backcountry scenic views, wildlife and wildflowers, while creating a space
             for others
             to do the same. Review the list of events below and RSVP soon and often! Check out our FAQ page too.</p>
-          <a class="btn btn-md btn-primary register-btn" target="_blank" href="https://forms.gle/9uSJDEjQZr9TZPQw5" role="button">Sign up here</a>
+          <a class="btn btn-md btn-primary register-btn" target="_blank" href="https://forms.gle/9uSJDEjQZr9TZPQw5"
+            role="button">Sign up here</a>
           <br>
           <br>
           <table class="table table-light table-striped table-bordered table-sm">
@@ -222,43 +197,47 @@
       </div>
     </div>
 
-    <div class="container-fluid upcoming-events">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <br>
-          <h2>Recreation Events</h2>
-          <hr>
-          <p>Discover new places and make new friends while recreating on local Mariposa trails. The Mariposa front-country
-            is an awesome place to hike, bike, run or to simply saunter while enjoying the local wildlife, plants and beautiful
-            scenery.  Be a participant, lead a trip on one of your favorite trails, or manage this program. </p>
-          <p>Add Button - Participate in an upcoming event</p>
-          <p>Add Button - Lead a Recreation Trip</p>
-          <p>Add Button - Be the Recreation Events Manager</p>
-          <p> </p>
-          <br>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <br>
+            <h2>Recreation Events</h2>
+            <hr>
+            <p>Discover new places and make new friends while recreating on local Mariposa trails. The Mariposa
+              front-country
+              is an awesome place to hike, bike, run or to simply saunter while enjoying the local wildlife, plants and
+              beautiful
+              scenery. Be a participant, lead a trip on one of your favorite trails, or manage this program. </p>
+            <p>Add Button - Participate in an upcoming event</p>
+            <p>Add Button - Lead a Recreation Trip</p>
+            <p>Add Button - Be the Recreation Events Manager</p>
+            <p> </p>
+            <br>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <br>
-          <h2>Race Events</h2>
-          <hr>
-          <p>Trail racing, whether on bike or foot, can be a fun way to experience the front-country of Mariposa County.
-            Be a participant, a race event volunteer, or help manage this program.  Volunteering on race day is a great way
-            to build friendships and community while earning race apparel and free food and beverages! </p>
-          <p>Add Button - Be a Race Event Volunteer</p>
-          <p>Add Button - Be a Race Event Manager</p>
-          <p>List of Events</p>
-          <p>April 5, 2020. Merced Canyon Endurance Run</p>
-          <p>ultrasignup.com or facebook.com/groups/MCER2020</p>
-          <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <br>
+            <h2>Race Events</h2>
+            <hr>
+            <p>Trail racing, whether on bike or foot, can be a fun way to experience the front-country of Mariposa
+              County.
+              Be a participant, a race event volunteer, or help manage this program. Volunteering on race day is a great
+              way
+              to build friendships and community while earning race apparel and free food and beverages! </p>
+            <p>Add Button - Be a Race Event Volunteer</p>
+            <p>Add Button - Be a Race Event Manager</p>
+            <p>List of Events</p>
+            <p>April 5, 2020. Merced Canyon Endurance Run</p>
+            <p>ultrasignup.com or facebook.com/groups/MCER2020</p>
+            <br>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <div class="container">
       <div class="row">
@@ -298,8 +277,10 @@
           <p>Mariposa Trails implements several programs and initiatives to build trails and community, enabling a wide
             range of tasks for volunteers to fill, including: grant writers, educators, photographers, graphic artists,
             chefs, financiers, carpenters, scientists, event planners and coordinators, recreation trip leaders and
-            partner ambassadors. Together, we can achieve the vision of Mariposa Trails. Choose to "pay it forward," knowing
-            that our health, prosperity and enjoyment of our lands are rooted in our access to the earth, and our care of it.</p>
+            partner ambassadors. Together, we can achieve the vision of Mariposa Trails. Choose to "pay it forward,"
+            knowing
+            that our health, prosperity and enjoyment of our lands are rooted in our access to the earth, and our care
+            of it.</p>
           <p>Add Button - I want to be a Trailblazer</p>
           <br>
         </div>
@@ -322,97 +303,8 @@
       </div>
     </div>
 
-      <!-- FOOTER -->
 
-      <div class="footer-widget">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-1 col-md-1">
-            </div>
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <div class="textwidget">
-                  <div class="footer-address"><img src="assets/MariposaTrailsLogo_BasicDesign.png" alt="Mariposa Trails"
-                      width=100%>
-                    <div class="address">
-                      <br>
-                      <p>
-                        P.O BOX 5008-201<br>Mariposa, CA 95338</p>
-                      <p>
-                        <span><a href="mailto:mariposa.trails@yahoo.com">mariposa.trails@yahoo.com</a></span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <i>The mission of MARIPOSA TRAILS is to be stewards of a trail network and promote its use for personal health
-                  and community prosperity.</i>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-1">
-            </div>
-  
-            <div class="col-sm-1 col-md-1">
-              <div class="text-2">
-                <h3 class="widget-title">Support</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">Safety</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/safety.html">Personal</a></li>
-                    <li><a href="/safety.html">Tool Use</a></li>
-                    <li><a href="/safety.html">Video</a></li>
-                    <li><a target="_blank" id="link-color"
-                      href="documents/PARTICIPANT ACKNOWLEDGEMENT OF RISKS_180815_clear.pdf">Risk Acknowledgement</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-2 col-md-2">
-              <div class="text-2">
-                <h3 class="widget-title text-center">FAQ</h3>
-                <div class="textwidget">
-                  <ul class="footer-link">
-                    <li><a href="/FAQ.html">Pack Lists</a></li>
-                    <li><a href="/FAQ.html">Trail Work Day</a></li>
-                    <li><a href="/FAQ.html">New Volunteer</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p>&copy; Mariposa Trails</p>
-      </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!-- FOOTER -->
+    <div class="hello"></div>
 
 </html>
