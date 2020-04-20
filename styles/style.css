@@ -75,6 +75,11 @@ font-size: 1.3rem;
     background-size:cover;
   }
 
+  .nav-item{
+    padding-right: 1em;
+    padding-left: 1em;
+    }
+
   .footer-widget {
     background-color:rgb(35, 35, 35);
     color: #999999;
@@ -126,6 +131,15 @@ background-size:cover;
     margin:0 auto;
     text-align: center;
     font-size: 1.4em !important;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid #A5B7EA;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #A5B7EA;
 }
 
 .carousel {
